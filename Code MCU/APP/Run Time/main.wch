@@ -1,0 +1,99 @@
+<WCH v="2">
+<item n="_g_HMI_ReceiverData_un" r="1" s="False" e="True" i="2642">
+<item n="_ReceiverData_puint8" r="1" s="False" e="False" i="-1">
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+<item n="[6]" r="1" s="False" e="False" i="6"/>
+<item n="[7]" r="1" s="False" e="False" i="7"/>
+<item n="[8]" r="1" s="False" e="False" i="8"/>
+<item n="[9]" r="1" s="False" e="False" i="9"/>
+<item n="[10]" r="1" s="False" e="False" i="10"/>
+<item n="[11]" r="1" s="False" e="False" i="11"/>
+</item>
+<item n="_ADC_st" r="1" s="False" e="True" i="-1">
+<item n="_ID" r="0" s="False" e="False" i="0"/>
+<item n="_Code_uint16" r="0" s="False" e="False" i="1"/>
+<item n="_EngValue" r="0" s="True" e="False" i="2"/>
+<item n="_RawValue" r="0" s="False" e="False" i="3"/>
+<item n="_CRC" r="0" s="False" e="False" i="4"/>
+</item>
+<item n="_ReceiverData_st" r="1" s="False" e="True" i="-1">
+</item>
+<item n="_ID" r="1" s="False" e="False" i="0"/>
+<item n="_Code_uint16" r="1" s="False" e="False" i="1"/>
+<item n="_Index_uint16" r="1" s="False" e="False" i="2"/>
+<item n="_Data_uint16" r="1" s="False" e="False" i="3"/>
+<item n="_Velocity_int16" r="1" s="False" e="False" i="4"/>
+<item n="_CRC_uint16" r="1" s="False" e="False" i="5"/>
+</item>
+<item n="_g_HMI_SendData_un" r="1" s="False" e="True" i="2643">
+<item n="_SendData_puint8" r="1" s="False" e="False" i="-1">
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+<item n="[6]" r="1" s="False" e="False" i="6"/>
+<item n="[7]" r="1" s="False" e="False" i="7"/>
+<item n="[8]" r="1" s="False" e="False" i="8"/>
+<item n="[9]" r="1" s="False" e="False" i="9"/>
+<item n="[10]" r="1" s="False" e="False" i="10"/>
+<item n="[11]" r="1" s="False" e="False" i="11"/>
+<item n="[12]" r="1" s="False" e="False" i="12"/>
+<item n="[13]" r="1" s="False" e="False" i="13"/>
+<item n="[14]" r="1" s="False" e="False" i="14"/>
+<item n="[15]" r="1" s="False" e="False" i="15"/>
+<item n="[16]" r="1" s="False" e="False" i="16"/>
+<item n="[17]" r="1" s="False" e="False" i="17"/>
+<item n="[18]" r="1" s="False" e="False" i="18"/>
+<item n="[19]" r="1" s="False" e="False" i="19"/>
+<item n="[20]" r="1" s="False" e="False" i="20"/>
+<item n="[21]" r="1" s="False" e="False" i="21"/>
+<item n="[22]" r="1" s="False" e="False" i="22"/>
+<item n="[23]" r="1" s="False" e="False" i="23"/>
+<item n="[24]" r="1" s="False" e="False" i="24"/>
+<item n="[25]" r="1" s="False" e="False" i="25"/>
+<item n="[26]" r="1" s="False" e="False" i="26"/>
+<item n="[27]" r="1" s="False" e="False" i="27"/>
+<item n="[28]" r="1" s="False" e="False" i="28"/>
+<item n="[29]" r="1" s="False" e="False" i="29"/>
+<item n="[30]" r="1" s="False" e="False" i="30"/>
+<item n="[31]" r="1" s="False" e="False" i="31"/>
+</item>
+<item n="_SendDataRaw_st" r="1" s="False" e="False" i="-1">
+<item n="_ID" r="1" s="False" e="False" i="0"/>
+<item n="_Code_uint16" r="1" s="False" e="False" i="1"/>
+<item n="_Data_pint32" r="1" s="False" e="False" i="-1">
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+</item>
+<item n="_Subcode_uint16" r="1" s="False" e="False" i="3"/>
+<item n="_CRC" r="1" s="False" e="False" i="4"/>
+</item>
+<item n="_SendDataEng_st" r="1" s="False" e="True" i="-1">
+</item>
+<item n="_ID" r="1" s="False" e="False" i="0"/>
+<item n="_Code_uint16" r="1" s="False" e="False" i="1"/>
+<item n="_Data_pdouble" r="1" s="False" e="True" i="-1">
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+</item>
+<item n="_Subcode_uint16" r="1" s="False" e="False" i="3"/>
+<item n="_CRC" r="1" s="False" e="False" i="4"/>
+</item>
+<item n="_VREF_HIGH_Channel_1" r="0" s="True" e="True" i="2"/>
+<item n="_VREF_LOW_Channel_1" r="0" s="True" e="True" i="3"/>
+</WCH>

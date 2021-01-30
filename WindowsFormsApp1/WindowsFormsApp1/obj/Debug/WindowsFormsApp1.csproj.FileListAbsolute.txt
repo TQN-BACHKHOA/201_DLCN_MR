@@ -1,0 +1,10 @@
+/Volumes/ForBoth/MR_DLCN/WindowsFormsApp1/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.Form1.resources
+/Volumes/ForBoth/MR_DLCN/WindowsFormsApp1/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.Properties.Resources.resources
+/Volumes/ForBoth/MR_DLCN/WindowsFormsApp1/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.csproj.GenerateResource.cache
+/Volumes/ForBoth/MR_DLCN/WindowsFormsApp1/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.csproj.CoreCompileInputs.cache
+/Volumes/ForBoth/MR_DLCN/WindowsFormsApp1/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.exe
+/Volumes/ForBoth/MR_DLCN/WindowsFormsApp1/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.pdb
+/Volumes/ForBoth/MR_DLCN/WindowsFormsApp1/WindowsFormsApp1/bin/Debug/WindowsFormsApp1.exe.config
+/Volumes/ForBoth/MR_DLCN/WindowsFormsApp1/WindowsFormsApp1/bin/Debug/WindowsFormsApp1.exe
+/Volumes/ForBoth/MR_DLCN/WindowsFormsApp1/WindowsFormsApp1/bin/Debug/WindowsFormsApp1.pdb
+/Volumes/ForBoth/MR_DLCN/WindowsFormsApp1/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.csprojAssemblyReference.cache

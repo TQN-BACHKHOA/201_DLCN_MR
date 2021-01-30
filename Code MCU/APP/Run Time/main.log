@@ -1,0 +1,62 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F407VG -UICD -RA -BIN -LHF -DL -SSA -O11111114 -fo8 -N"F:\MR_DLCN\Code MCU\APP\Run Time\main.mcpar" -SP"G:\Applications\MikroC\mikroC PRO for ARM\Defs\" -SP"G:\Applications\MikroC\mikroC PRO for ARM\Uses\ST M4\" -SP"F:\MR_DLCN\Code MCU\APP\Run Time\" -SP"F:\MR_DLCN\Code MCU\APP\" -SP"F:\MR_DLCN\Code MCU\BSW\" -SP"F:\MR_DLCN\Code MCU\BSW\Driver\IO Driver\Timer Driver\" -SP"F:\MR_DLCN\Code MCU\BSW\Driver\COM Driver\RS232 Driver\" -SP"F:\MR_DLCN\Code MCU\BSW\Service\IO Service\HMI Service\" -SP"F:\MR_DLCN\Code MCU\BSW\Service\SYS Service\MCU Service\" -SP"F:\MR_DLCN\Code MCU\BSW\Service\SYS Service\OS Service\" -SP"F:\MR_DLCN\Code MCU\APP\FCN\" -SP"F:\MR_DLCN\Code MCU\BSW\Driver\IO Driver\Digital Driver\" -SP"F:\MR_DLCN\Code MCU\BSW\Service\IO Service\DIO Service\" -SP"F:\MR_DLCN\Code MCU\BSW\Driver\IO Driver\Analog Driver\" -SP"F:\MR_DLCN\Code MCU\BSW\Service\IO Service\ADC Service\" -SP"F:\MR_DLCN\Code MCU\APP\LIB\" -SP"F:\MR_DLCN\Code MCU\APP\RDS\" -IP"G:\Applications\MikroC\mikroC PRO for ARM\Uses\ST M4\" -IP"F:\MR_DLCN\Code MCU\APP\" -IP"F:\MR_DLCN\Code MCU\BSW\" -IP"F:\MR_DLCN\Code MCU\BSW\Driver\IO Driver\Timer Driver\" -IP"F:\MR_DLCN\Code MCU\BSW\Driver\COM Driver\RS232 Driver\" -IP"F:\MR_DLCN\Code MCU\BSW\Service\IO Service\HMI Service\" -IP"F:\MR_DLCN\Code MCU\BSW\Service\SYS Service\MCU Service\" -IP"F:\MR_DLCN\Code MCU\BSW\Service\SYS Service\OS Service\" -IP"F:\MR_DLCN\Code MCU\APP\FCN\" -IP"F:\MR_DLCN\Code MCU\BSW\Driver\IO Driver\Digital Driver\" -IP"F:\MR_DLCN\Code MCU\BSW\Service\IO Service\DIO Service\" -IP"F:\MR_DLCN\Code MCU\BSW\Driver\IO Driver\Analog Driver\" -IP"F:\MR_DLCN\Code MCU\BSW\Service\IO Service\ADC Service\" -IP"F:\MR_DLCN\Code MCU\APP\LIB\" -IP"F:\MR_DLCN\Code MCU\APP\RDS\" "main.c" "timer_driver.c" "rs232_driver.c" "hmi_service.c" "mcu_service.c" "os_service.c" "FCN_controler.c" "dio_driver.c" "dio_service.c" "adc_driver.c" "adc_service.c" "adc_convert.c" "RDS_controler.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_4XX.emcl" "__Lib_GPIO_32F4xx_Defs.emcl" "__Lib_GPIO_32F4xx.emcl" "__Lib_CType.emcl" "__Lib_CString.emcl" "__Lib_CStdlib.emcl" "__Lib_CMath.emcl" "__Lib_ADC_123_32F20x_16ch.emcl" "__Lib_FLASH_32F20x_40x_1024.emcl" "__Lib_UART_123_45_6.emcl" "__Lib_CAN_12.emcl" "__Lib_DAC_12.emcl" "__Lib_RS485.emcl"	 
+diagnostics: 0	122	Compilation Started	STM32F407VG.c
+diagnostics: 58985	123	Compiled Successfully	STM32F407VG.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 119	123	Compiled Successfully	__Lib_Delays.c
+hint: 66	1164	Variable 'cycles_div_by_10' has been eliminated by optimizer	__Lib_Delays.c
+hint: 88	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+hint: 105	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__lib_gpio.h
+diagnostics: 879	123	Compiled Successfully	__Lib_GPIO_32F4xx_Defs.c
+diagnostics: 0	122	Compilation Started	fcn_run.h
+hint: 0	1004	interrupt handler (Task_T100ms_v at 0x0046)	main.c
+hint: 0	1004	interrupt handler (Task_T10ms_v at 0x0047)	main.c
+hint: 0	1004	interrupt handler (Task_Interrupt_1_v at 0x001C)	main.c
+diagnostics: 92	123	Compiled Successfully	main.c
+diagnostics: 0	122	Compilation Started	timer_driver.h
+diagnostics: 100	123	Compiled Successfully	timer_driver.c
+diagnostics: 0	122	Compilation Started	rs232_driver.c
+warning: 95	1506	Implicit conversion of pointer to int	rs232_driver.c
+warning: 96	1506	Implicit conversion of pointer to int	rs232_driver.c
+warning: 108	1506	Implicit conversion of pointer to int	rs232_driver.c
+warning: 109	1506	Implicit conversion of pointer to int	rs232_driver.c
+diagnostics: 112	123	Compiled Successfully	rs232_driver.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 50	123	Compiled Successfully	hmi_service.c
+diagnostics: 0	122	Compilation Started	mcu_service.h
+diagnostics: 65	123	Compiled Successfully	mcu_service.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 156	123	Compiled Successfully	os_service.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 109	123	Compiled Successfully	FCN_controler.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 240	123	Compiled Successfully	dio_driver.c
+hint: 179	1164	Variable 'tmp' has been eliminated by optimizer	dio_driver.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 128	123	Compiled Successfully	dio_service.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 59	123	Compiled Successfully	adc_driver.c
+hint: 32	1164	Variable 'value' has been eliminated by optimizer	adc_driver.c
+hint: 37	1164	Variable 'value' has been eliminated by optimizer	adc_driver.c
+hint: 42	1164	Variable 'value' has been eliminated by optimizer	adc_driver.c
+hint: 47	1164	Variable 'value' has been eliminated by optimizer	adc_driver.c
+hint: 52	1164	Variable 'value' has been eliminated by optimizer	adc_driver.c
+hint: 57	1164	Variable 'value' has been eliminated by optimizer	adc_driver.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 75	123	Compiled Successfully	adc_service.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 30	123	Compiled Successfully	adc_convert.c
+hint: 23	1164	Variable 'tmp' has been eliminated by optimizer	adc_convert.c
+hint: 24	1164	Variable 'span' has been eliminated by optimizer	adc_convert.c
+hint: 25	1164	Variable 'zero' has been eliminated by optimizer	adc_convert.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 175	123	Compiled Successfully	RDS_controler.c
+hint: 49	1164	Variable 'value' has been eliminated by optimizer	RDS_controler.c
+diagnostics: 0	127	All files Compiled in 1438 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 184   Dynamic RAM (bytes): 130885	Static RAM (bytes): 184   Dynamic RAM (bytes): 130885
+hint: 0	1144	Used ROM (bytes): 8458 (1%)  Free ROM (bytes): 1040118 (99%)	Used ROM (bytes): 8458 (1%)  Free ROM (bytes): 1040118 (99%)
+diagnostics: 0	125	Project Linked Successfully	main.mcpar
+diagnostics: 0	128	Linked in 594 ms	 
+diagnostics: 0	129	Project 'main.mcpar' completed: 3735 ms	 
+diagnostics: 0	103	Finished successfully: 26 Jan 2021, 17:19:26	main.mcpar

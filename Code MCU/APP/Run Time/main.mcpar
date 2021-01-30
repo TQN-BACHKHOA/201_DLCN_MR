@@ -1,0 +1,200 @@
+[DEVICE]
+Name=STM32F407VG
+Clock=8000000
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=1
+[ACTIVE_TAB]
+Value=..\..\BSW\Service\IO Service\ADC Service\adc_service.c
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+File0=main.c
+File1=..\..\BSW\Driver\IO Driver\Timer Driver\timer_driver.c
+File2=..\..\BSW\Driver\COM Driver\RS232 Driver\rs232_driver.c
+File3=..\..\BSW\Service\IO Service\HMI Service\hmi_service.c
+File4=..\..\BSW\Service\SYS Service\MCU Service\mcu_service.c
+File5=..\..\BSW\Service\SYS Service\OS Service\os_service.c
+File6=..\FCN\FCN_controler.c
+File7=..\..\BSW\Driver\IO Driver\Digital Driver\dio_driver.c
+File8=..\..\BSW\Service\IO Service\DIO Service\dio_service.c
+File9=..\..\BSW\Driver\IO Driver\Analog Driver\adc_driver.c
+File10=..\..\BSW\Service\IO Service\ADC Service\adc_service.c
+File11=..\LIB\adc_convert.c
+File12=..\RDS\RDS_controler.c
+Count=13
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+File0=main.c
+File1=..\..\BSW\Driver\COM Driver\RS232 Driver\rs232_driver.c
+File2=..\..\BSW\Service\IO Service\HMI Service\hmi_service.h
+File3=..\..\BSW\Service\IO Service\HMI Service\hmi_service.c
+File4=..\LIB\adc_convert.c
+File5=..\..\BSW\Driver\COM Driver\RS232 Driver\rs232_driver.h
+File6=..\..\BSW\Service\SYS Service\OS Service\os_service.c
+File7=..\..\BSW\Service\IO Service\DIO Service\dio_service.c
+File8=..\RDS\RDS_controler.c
+File9=..\RDS\RDS_run.h
+File10=..\..\BSW\Service\IO Service\ADC Service\adc_service.c
+File11=..\..\BSW\Driver\IO Driver\Digital Driver\dio_driver.c
+File12=..\LIB\adc_convert.h
+File13=..\..\BSW\Driver\IO Driver\Analog Driver\adc_driver.h
+File14=..\..\BSW\Service\IO Service\ADC Service\adc_service.h
+File15=..\RDS\RDS_in.h
+File16=..\FCN\FCN_controler.c
+Count=17
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Path0=..\
+Path1=..\..\BSW\
+Path2=..\..\BSW\Driver\IO Driver\Timer Driver\
+Path3=..\..\BSW\Driver\COM Driver\RS232 Driver\
+Path4=..\..\BSW\Service\IO Service\HMI Service\
+Path5=..\..\BSW\Service\SYS Service\MCU Service\
+Path6=..\..\BSW\Service\SYS Service\OS Service\
+Path7=..\FCN\
+Path8=..\..\BSW\Driver\IO Driver\Digital Driver\
+Path9=..\..\BSW\Service\IO Service\DIO Service\
+Path10=..\..\BSW\Driver\IO Driver\Analog Driver\
+Path11=..\..\BSW\Service\IO Service\ADC Service\
+Path12=..\LIB\
+Path13=..\RDS\
+Count=14
+[HEADER_PATH]
+Path0=..\
+Path1=..\..\BSW\
+Path2=..\..\BSW\Driver\IO Driver\Timer Driver\
+Path3=..\..\BSW\Driver\COM Driver\RS232 Driver\
+Path4=..\..\BSW\Service\IO Service\HMI Service\
+Path5=..\..\BSW\Service\SYS Service\MCU Service\
+Path6=..\..\BSW\Service\SYS Service\OS Service\
+Path7=..\FCN\
+Path8=..\..\BSW\Driver\IO Driver\Digital Driver\
+Path9=..\..\BSW\Service\IO Service\DIO Service\
+Path10=..\..\BSW\Driver\IO Driver\Analog Driver\
+Path11=..\..\BSW\Service\IO Service\ADC Service\
+Path12=..\LIB\
+Path13=..\RDS\
+Count=14
+[HEADERS]
+File0=..\..\BSW\Driver\IO Driver\Timer Driver\timer_driver.h
+File1=..\FCN\FCN_in.h
+File2=..\FCN\FCN_out.h
+File3=..\FCN\FCN_run.h
+File4=type_include.h
+File5=..\..\BSW\Service\IO Service\HMI Service\hmi_service.h
+File6=..\..\BSW\Service\SYS Service\OS Service\os_service.h
+File7=..\..\BSW\Service\SYS Service\MCU Service\mcu_service.h
+File8=..\..\BSW\Driver\COM Driver\RS232 Driver\rs232_driver.h
+File9=..\..\BSW\Driver\IO Driver\Digital Driver\dio_driver.h
+File10=..\..\BSW\Service\IO Service\DIO Service\dio_service.h
+File11=..\..\BSW\Service\IO Service\ADC Service\adc_service.h
+File12=..\..\BSW\Driver\IO Driver\Analog Driver\adc_driver.h
+File13=..\LIB\adc_convert.h
+File14=..\RDS\RDS_in.h
+File15=..\RDS\RDS_out.h
+File16=..\RDS\RDS_run.h
+Count=17
+[PLDS]
+Count=0
+[Useses]
+File0=UART
+File1=C_String
+File2=ADC
+File3=DAC
+File4=FLASH
+File5=C_Math
+File6=C_Stdlib
+File7=C_Type
+File8=CAN
+File9=RS485
+Count=10
+[EXPANDED_NODES]
+0=main.mcpar
+1=Sources
+3=..\
+4=..\
+5=BSW
+6=Driver
+7=IO Driver
+8=Timer Driver
+10=Digital Driver
+12=Analog Driver
+14=COM Driver
+15=RS232 Driver
+17=Service
+18=IO Service
+19=HMI Service
+21=DIO Service
+23=ADC Service
+25=SYS Service
+26=MCU Service
+28=OS Service
+30=FCN
+32=LIB
+34=RDS
+36=Header Files
+37=..\
+38=..\
+39=BSW
+40=Driver
+41=IO Driver
+42=Timer Driver
+44=Digital Driver
+46=Analog Driver
+48=COM Driver
+49=RS232 Driver
+51=Service
+52=IO Service
+53=HMI Service
+55=DIO Service
+57=ADC Service
+59=SYS Service
+60=OS Service
+62=MCU Service
+64=FCN
+68=LIB
+70=RDS
+Count=45
+[LIB_EXPANDED_NODES]
+0=mikroE Libraries
+1=System Libraries
+2=ADC
+1195=Additional Libraries
+2234=mikroSDK Libraries
+2240=Third Party Libraries
+2241=Memory manager dlmalloc
+Count=7
+[PROGRAMMER_OPTIONS]
+Value=SWD
+[PROGRAMMER_TYPE]
+Value=mikroE mikroProg
+[DEBUGGER_TYPE]
+Value=default
+[NECTO_OPTIONS]
+NECTO_RESET_TYPE=1
+NECTO_ERASE_TYPE=0
+NECTO_CONNECTION=0
+NECTO_SPEED=0
+NECTO_HALT_AFTER=0
+NECTO_VERIFY_AFTER=0
+[AT_DEBUG_STARTUP]
+LOAD_BIN_TO_RAM=0
+START_EXEC_FROM_ADDR=0
+START_ADDR=-1
